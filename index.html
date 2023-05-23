@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather by Devk</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Implementing Weather Details Using Java-Scripts</h1>
+  <h2>Developed by Dev Khatanhar</h2>
+  <h3>Enter your city name below to get the related whether details</h3>
+  <form id="weatherForm">
+    <input type="text" id="locationInput" placeholder="Enter location" required>
+    <button type="submit">Get Weather</button>
+  </form>
+
+  <div id="weatherData" class="hidden">
+    <p id="lon"></p>
+    <p id="lat"></p>
+    <p id="temperature"></p>
+    <p id="humidity"></p>
+    <p id="description"></p>
+    <p id="country"></p>
+    <p id="speed"></p>
+    <p id="visibility"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
